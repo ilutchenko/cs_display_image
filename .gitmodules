@@ -1,0 +1,9 @@
+[submodule "meta-layers/meta-openembedded"]
+	path = meta-layers/meta-openembedded
+	url = https://github.com/openembedded/meta-openembedded.git
+[submodule "meta-layers/meta-st-stm32mp"]
+	path = meta-layers/meta-st-stm32mp
+	url = https://github.com/STMicroelectronics/meta-st-stm32mp.git
+[submodule "meta-layers/poky"]
+	path = meta-layers/poky
+	url = https://github.com/yoctoproject/poky.git
