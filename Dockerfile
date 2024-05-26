@@ -10,7 +10,8 @@ RUN apt-get update && apt-get install -y gawk wget git-core diffstat unzip texin
     xz-utils debianutils iputils-ping python3-git \
     python3-jinja2 libegl1-mesa libsdl1.2-dev xterm \
     locales python3-distutils libssl-dev gdisk sudo \
-    libgmp-dev libmpc-dev pylint
+    libgmp-dev libmpc-dev pylint \
+    file liblz4-tool zstd
 
 RUN groupadd -g 1000 dev && \
     useradd -u 1000 -g dev -d /home/dev dev && \
